@@ -1,6 +1,6 @@
 // import React, { useState, useRef } from 'react';
 // import './ServiceRate.css';
-// import { startResizing } from '../TableHeadingResizing/resizableColumns';
+// import { startResizing } from '../TableHeadingResizing/ResizableColumns';
 // function OperationOrProcedureRate() {
 //   const [rows, setRows] = useState([
 //     { sn: 1,},

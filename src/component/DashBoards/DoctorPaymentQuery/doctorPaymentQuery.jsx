@@ -3,7 +3,7 @@
 import React, { useState, useRef } from 'react';
 import "./doctorPaymentQuery.css"
 import AddNewDoctorPaymentQuery from "./addNewDoctorPaymentQuery"
-import { startResizing } from '../../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../../TableHeadingResizing/ResizableColumns';
 import CustomModal from '../../../CustomModel/CustomModal';
 const labTests = [
   {queryId:"", doctorId: "", billReference: "", queryDetails: "", status:"", },

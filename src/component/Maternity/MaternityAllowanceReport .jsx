@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './MaternityAllowanceReport .css'; // Ensure this is the correct path
-import { startResizing } from '../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../TableHeadingResizing/ResizableColumns';
 
 const MaternityAllowanceReportComponent = () => {
   const [isPopupVisible, setPopupVisible] = useState(false);

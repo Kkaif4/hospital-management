@@ -8,7 +8,7 @@ import {
   FloatingInput,
   FloatingSelect,
   FloatingTextarea,
-} from "../../FloatingInputs/index";
+} from "../../FloatingInputs";
 import { toast } from "react-toastify";
 import { usePopup } from "../../FidgetSpinner/PopupContext";
 import jsPDF from "jspdf";

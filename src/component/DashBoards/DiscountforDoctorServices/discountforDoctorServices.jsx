@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import './discountforDoctorServices.css';
-import { startResizing } from '../../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../../TableHeadingResizing/ResizableColumns';
 
 
 const DiscountforDoctorServices = () => {

@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import "./DischargeClearance.css";
 import axios from "axios";
 import { API_BASE_URL } from "../../api/api";
-import { FloatingInput } from "../../../FloatingInputs/index";
+import { FloatingInput } from "../../../FloatingInputs";
 
 const DischargeClearance = ({ patient, setActiveState }) => {
   const [formData, setFormData] = useState({

@@ -2,7 +2,7 @@
 import React, { useState, useRef, useEffect } from 'react';  // Add missing imports
 import axios from 'axios';
 import './PatientReportsResults.css';
-import { startResizing } from '../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../TableHeadingResizing/ResizableColumns';
 
 const PatientReportsResults = () => {
   const [reports, setReports] = useState([]); // State to hold report data

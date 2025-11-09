@@ -6,7 +6,7 @@ import * as XLSX from 'xlsx';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';
 import { API_BASE_URL } from '../api/api';
-import { FloatingInput, FloatingSelect, FloatingTextarea } from "../../FloatingInputs/index";
+import { FloatingInput, FloatingSelect, FloatingTextarea } from "../../FloatingInputs";
 import CustomModal from '../../CustomModel/CustomModal';
 import OPCancelationApprovalAction from './OPCancelationApprovalAction';
 const OPCancelationApproval = () => {

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import './FetalMonitoringManagement.css'; 
-import { startResizing } from '../../../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../../../TableHeadingResizing/ResizableColumns';
 
 const FetalMonitoringManagement = () => {
     const [columnWidths, setColumnWidths] = useState({});

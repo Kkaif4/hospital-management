@@ -9,7 +9,7 @@ import {
   FloatingSelect,
   FloatingTextarea,
   PopupTable,
-} from "../../../FloatingInputs/index";
+} from "../../../FloatingInputs";
 
 const BlockIPEntries = ({ patient }) => {
   const [activePopup, setActivePopup] = useState(null);

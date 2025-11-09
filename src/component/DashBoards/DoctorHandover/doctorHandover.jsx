@@ -3,7 +3,7 @@
 import React, { useState, useRef } from 'react';
 import "./doctorHandover.css"
 import AddNewDoctorHandover from "./addNewDoctorHandover"
-import { startResizing } from '../../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../../TableHeadingResizing/ResizableColumns';
 import CustomModal from '../../../CustomModel/CustomModal';
 const labTests = [
   {handover:"", roomNo: "", uHId: "", iPNO: "",patientName:"",ageSex:"", doctorId:"",dOA:"",panel:"",diagnosis:"",illnessSeverity:"",anyMajorComplaint:"",revision:"",exitingDuty:"", status:"", },

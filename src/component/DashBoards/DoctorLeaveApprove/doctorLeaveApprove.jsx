@@ -3,7 +3,7 @@
 import React, { useState, useRef } from 'react';
 import "./doctorLeaveApprove.css"
 import AddNewDoctorLeaveApprove from "./addNewDoctorLeaveApprove"
-import { startResizing } from '../../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../../TableHeadingResizing/ResizableColumns';
 import CustomModal from '../../../CustomModel/CustomModal';
 const labTests = [
   { sN: "", mRNO: "", apptNo: "", apptDate: "",name:"",age:"",gender:"",mobileNo:"",mail:"", approvedBy:"",status:"", },

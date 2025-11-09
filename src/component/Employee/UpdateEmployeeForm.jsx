@@ -6,7 +6,7 @@ import {
   FloatingSelect,
   FloatingTextarea,
   PopupTable,
-} from "../../FloatingInputs/index";
+} from "../../FloatingInputs";
 import { API_BASE_URL } from "../api/api";
 import { startResizing } from "../../TableHeadingResizing/ResizableColumns";
 import { FaSearch } from "react-icons/fa";

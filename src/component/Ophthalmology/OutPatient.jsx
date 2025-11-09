@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './OphthalmoOutpatient.css';
 import PatientDashboard from '../DashBoards/PatientDashboard'; // Import the PatientDashboard component
 import { API_BASE_URL } from '../api/api';
-import { startResizing } from '../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../TableHeadingResizing/ResizableColumns';
 import OphthalmoPatientDashboard from './OphthalmoPatientDashboard';
 
 const OutPatient = () => {

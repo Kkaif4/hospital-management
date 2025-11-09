@@ -3,7 +3,7 @@ import Barcode from "react-barcode"; // Import the barcode generator
 import "../NavBarSection/addResults.css";
 import LabAddResultWorkList from "./labAddresultWorkList";
 import { useNavigate } from "react-router-dom";
-import { startResizing } from "../../TableHeadingResizing/resizableColumns";
+import { startResizing } from "../../TableHeadingResizing/ResizableColumns";
 import { API_BASE_URL } from "../api/api";
 import { FloatingInput } from "../../FloatingInputs";
 

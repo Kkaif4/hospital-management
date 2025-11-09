@@ -5,7 +5,7 @@ import {
   PopupTable,
   FloatingInput,
   FloatingSelect,
-} from "../../../FloatingInputs/index";
+} from "../../../FloatingInputs";
 import { API_BASE_URL } from "../../api/api";
 import axios from "axios";
 import { toast } from "react-toastify";

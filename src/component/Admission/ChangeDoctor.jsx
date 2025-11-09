@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./changeDoctor.css";
 import { API_BASE_URL } from "../api/api";
-import { FloatingSelect } from "../../FloatingInputs/index";
+import { FloatingSelect } from "../../FloatingInputs";
 import axios from "axios";
 import { toast } from "react-toastify";
 

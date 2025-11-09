@@ -1,7 +1,7 @@
 // AjharTamboli 22-11-24 iPBilling.jsx
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-// import { startResizing } from "../../../TableHeadingResizing/resizableColumns";
+// import { startResizing } from "../../../TableHeadingResizing/ResizableColumns";
 import { startResizing } from "../../../TableHeadingResizing/ResizableColumns";
 import axios from "axios";
 import "./ipbilling.css";

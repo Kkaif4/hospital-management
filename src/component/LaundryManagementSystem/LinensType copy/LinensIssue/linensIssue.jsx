@@ -2,7 +2,7 @@ import React, { useState, useEffect,useRef } from 'react';
 import axios from 'axios';
 import './LinensIssue.css';
 import { AiOutlineSearch } from 'react-icons/ai';
-import { startResizing } from '../../../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../../../TableHeadingResizing/ResizableColumns';
 const LinensIssue = () => {
   const [columnWidths, setColumnWidths] = useState({});
   const tableRef = useRef(null);

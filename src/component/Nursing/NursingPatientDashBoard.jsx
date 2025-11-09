@@ -4,7 +4,7 @@ import { API_BASE_URL } from "../api/api";
 import "../DashBoards/InPatientAction.css";
 import "./NursingPatientDashBoard.css";
 import axios from "axios";
-import { startResizing } from "../TableHeadingResizing/resizableColumns";
+import { startResizing } from "../TableHeadingResizing/ResizableColumns";
 
 const Section = ({ title, handleAddClick, children }) => (
   <div className="Patient-Dashboard-firstBox">

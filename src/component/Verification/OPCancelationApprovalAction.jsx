@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect, useCallback } from "react";
 import { startResizing } from "../../TableHeadingResizing/ResizableColumns";
 import "./OPCancelationApprovalAction.css";
-import { FloatingInput, FloatingSelect, FloatingTextarea, PopupTable } from "../../FloatingInputs/index";
+import { FloatingInput, FloatingSelect, FloatingTextarea, PopupTable } from "../../FloatingInputs";
 import { API_BASE_URL } from "../api/api";
 import axios from "axios";
 import { toast } from "react-toastify";

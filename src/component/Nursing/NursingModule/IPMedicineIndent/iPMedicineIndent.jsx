@@ -4,7 +4,7 @@ import "./iPMedicineIndent.css";
 import PopupTable from "../Services/PopupTable";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { startResizing } from "../../../TableHeadingResizing/resizableColumns";
+import { startResizing } from "../../../TableHeadingResizing/ResizableColumns";
 
 const IpMedicineIndent = () => {
   const [columnWidths, setColumnWidths] = useState({});

@@ -1,7 +1,7 @@
 // import React, { useState,useRef } from 'react';
 // import { Button } from 'react-bootstrap';
 // import './UserCollectionReport.css';
-// import { startResizing } from '../TableHeadingResizing/resizableColumns';
+// import { startResizing } from '../TableHeadingResizing/ResizableColumns';
 
 // const DepositeTransaction = () => {
 //   const [showReport, setShowReport] = useState(false);
@@ -292,7 +292,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import './UserCollectionReport.css';
-import { startResizing } from '../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../TableHeadingResizing/ResizableColumns';
 import * as XLSX from 'xlsx';
 import jsPDF from 'jspdf';
 import 'jspdf-autotable';

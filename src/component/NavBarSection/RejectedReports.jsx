@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import jsPDF from "jspdf";
 import "jspdf-autotable";
 import "../NavBarSection/finalReports.css";
-import { startResizing } from "../../TableHeadingResizing/resizableColumns";
+import { startResizing } from "../../TableHeadingResizing/ResizableColumns";
 import { API_BASE_URL } from "../api/api";
 import { useNavigate } from "react-router-dom";
 import { FloatingInput } from "../../FloatingInputs";

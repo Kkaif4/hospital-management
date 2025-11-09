@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import "./ExtraAndAttenderDietIndent.css";
-import { startResizing } from "../../../TableHeadingResizing/resizableColumns";
+import { startResizing } from "../../../TableHeadingResizing/ResizableColumns";
 import { useSelector } from "react-redux";
 import PopupTable from "../PopUpTableBedTransfer/PopupTable";
 import axios from "axios";

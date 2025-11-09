@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "./UnCollectSample.css";
 import axios from "axios";
 import { API_BASE_URL } from "../api/api";
-import { startResizing } from "../../TableHeadingResizing/resizableColumns";
+import { startResizing } from "../../TableHeadingResizing/ResizableColumns";
 import { FloatingInput } from "../../FloatingInputs";
 const getCurrentDate = () => {
   return new Date().toISOString().split("T")[0];

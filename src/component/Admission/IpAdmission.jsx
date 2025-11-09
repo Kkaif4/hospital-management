@@ -9,7 +9,7 @@ import {
   FloatingInput,
   FloatingSelect,
   FloatingTextarea,
-} from "../../FloatingInputs/index";
+} from "../../FloatingInputs";
 import { usePopup } from "../../FidgetSpinner/PopupContext";
 import AdmissionFormPrint from "./AdmissionFormPrint";
 import PrintGenericSticker from "./PrintGenericSticker";

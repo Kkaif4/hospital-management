@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios'; // Import Axios
 import './LabourRoomList.css';
-import { startResizing } from '../../../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../../../TableHeadingResizing/ResizableColumns';
 
 const LabourList = () => {
     const [columnWidths, setColumnWidths] = useState({});

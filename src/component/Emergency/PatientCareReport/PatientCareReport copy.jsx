@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { startResizing } from "../../TableHeadingResizing/resizableColumns";
+import { startResizing } from "../../TableHeadingResizing/ResizableColumns";
 import './PatientCareReport.css';
 import axios from "axios";
 import PopupTable from "../popup";
@@ -654,7 +654,7 @@ const PatientCareReport = () => {
 export default PatientCareReport;
 
 // import React, { useState, useRef, useEffect } from "react";
-// import { startResizing } from "../../TableHeadingResizing/resizableColumns";
+// import { startResizing } from "../../TableHeadingResizing/ResizableColumns";
 // import './PatientCareReport.css';
 // import axios from "axios";
 // import PopupTable from "../popup";
@@ -950,7 +950,7 @@ export default PatientCareReport;
 
 
 // import React, { useState, useRef, useEffect } from "react";
-// import { startResizing } from "../../TableHeadingResizing/resizableColumns";
+// import { startResizing } from "../../TableHeadingResizing/ResizableColumns";
 // import './PatientCareReport.css';
 // import axios from "axios";
 // import PopupTable from "../popup";

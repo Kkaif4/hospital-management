@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import "./PatientList.css";
 import PaymentComponent from "./PaymentComponent";
-import { startResizing } from '../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../TableHeadingResizing/ResizableColumns';
 
 // import PaymentComponent from "./PaymentComponent";
 

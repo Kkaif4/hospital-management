@@ -3,7 +3,7 @@
 import React, { useState, useRef } from 'react';
 import "./doctorAccountSettings.css"
 import AddNewDoctorAccountSettings from "./addNewDoctorAccountSettings"
-import { startResizing } from '../../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../../TableHeadingResizing/ResizableColumns';
 import CustomModal from '../../../CustomModel/CustomModal';
 const labTests = [
   {doctorId: "", allowEdit: "", allowDelete: "", lockedBy:"",lockedDate:"", status:"", },

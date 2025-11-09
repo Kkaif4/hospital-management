@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { startResizing } from "../../TableHeadingResizing/resizableColumns"; 
+import { startResizing } from "../../TableHeadingResizing/ResizableColumns"; 
 import './DiabeticChartForm.css';
 import PopupTable from "../popup";
 import axios from "axios";
@@ -270,7 +270,7 @@ export default DiabeticChartForm;
 
 
 // import React, { useState, useRef, useEffect } from "react";
-// import { startResizing } from "../../TableHeadingResizing/resizableColumns"; 
+// import { startResizing } from "../../TableHeadingResizing/ResizableColumns"; 
 // import './DiabeticChartForm.css';
 // import PopupTable from "../popup";
 // import axios from "axios";

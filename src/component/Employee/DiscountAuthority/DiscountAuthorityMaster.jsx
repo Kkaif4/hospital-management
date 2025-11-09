@@ -10,9 +10,9 @@ import {
   FloatingInput,
   FloatingSelect,
   FloatingTextarea,
-} from "../../../FloatingInputs/index";
+} from "../../../FloatingInputs";
 
-import { PopupTable } from "../../../FloatingInputs/index";
+import { PopupTable } from "../../../FloatingInputs";
 
 const DiscountAuthorityMaster = () => {
   const [activePopup, setActivePopup] = useState(null);

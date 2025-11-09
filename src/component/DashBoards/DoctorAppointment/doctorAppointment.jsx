@@ -3,7 +3,7 @@
 import React, { useState, useRef } from "react";
 import "./doctorAppointment.css";
 import AddNewDoctorAppointment from "./addNewDoctorAppointment";
-import { startResizing } from "../../TableHeadingResizing/resizableColumns";
+import { startResizing } from "../../TableHeadingResizing/ResizableColumns";
 import CustomModal from "../../../CustomModel/CustomModal";
 const labTests = [
   {

@@ -3,7 +3,7 @@
 import React, { useState, useRef } from 'react';
 import "./doctorPayoutSummary.css"
 import AddNewDoctorPayoutSummary from "../DoctorPayoutSummary/addNewDoctorPayoutSummary"
-import { startResizing } from '../../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../../TableHeadingResizing/ResizableColumns';
 import CustomModal from '../../../CustomModel/CustomModal';
 const labTests = [
   { payoutId: "", doctorId: "", amount: "", date: "",status:"", },

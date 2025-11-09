@@ -4,7 +4,7 @@ import LabLookUpAddNewLUp from "./labLookUpAddNewLUp";
 import LabLookUpUpdateNewLUp from "./LabLookUpUpdateNewLUp";
 import axios from "axios";
 import { API_BASE_URL } from "../../api/api";
-import { startResizing } from "../../../TableHeadingResizing/resizableColumns";
+import { startResizing } from "../../../TableHeadingResizing/ResizableColumns";
 import { FloatingInput } from "../../../FloatingInputs";
 
 const LookUps = () => {

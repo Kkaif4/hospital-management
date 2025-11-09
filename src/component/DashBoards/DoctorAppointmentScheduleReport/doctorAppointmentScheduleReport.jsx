@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import './doctorAppointmentScheduleReport.css';
-import { startResizing } from '../../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../../TableHeadingResizing/ResizableColumns';
 
 
 const DoctorAppointmentScheduleReport = () => {

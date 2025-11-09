@@ -1,11 +1,11 @@
 import React, { useState, useRef, useEffect } from "react";
-import { startResizing } from "../../../TableHeadingResizing/resizableColumns";
+import { startResizing } from "../../../TableHeadingResizing/ResizableColumns";
 import "./OPDPostDiscount.css";
 import {
   PopupTable,
   FloatingInput,
   FloatingSelect,
-} from "../../../FloatingInputs/index";
+} from "../../../FloatingInputs";
 import { API_BASE_URL } from "../../api/api";
 import axios from "axios";
 import { toast } from "react-toastify";

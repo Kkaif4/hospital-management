@@ -1,7 +1,7 @@
 /* Mohini_DrugExpiryAlert_WholePage_8/10/24 */
 import React, { useEffect, useState, useRef } from 'react';
 import './DrugExpiryAlert.css'; // Import your CSS file
-import { startResizing } from '../TableHeadingResizing/resizableColumns';
+import { startResizing } from '../TableHeadingResizing/ResizableColumns';
 
 const DrugExpiryAlert = () => {
     const [items, setItems] = useState([]);
