@@ -1,0 +1,65 @@
+.admission-header {
+  background-color: white;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+.nav-links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.admission-header .logo{
+  font-size: 18px;
+}
+.nav-links a ,.logo{
+  color: black;
+  text-decoration: none;
+  font-size: var(--heading-font);
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 0px;
+  position: relative;
+  border: 1px solid transparent;
+}
+.nav-links a:hover {
+  background-color: var(--button-hover-background-color);
+  color: var(--button-hover-text-color);
+    border: 1px solid var( --button-hover-border-color);
+}
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  transition: width 0.3s ease;
+}
+.nav-links a:hover::after {
+  width: 100%;
+}
+.adt-header-button {
+  font-size: var(--heading-font);
+  text-decoration: none; 
+  color: #333;
+  padding: 5px 10px; 
+  margin-right: 0px;
+  transition: color 0.3s, background-color 0.3s; 
+  border-radius: 5px; 
+}
+.adt-header-button:hover{
+  /* border: 1px solid red  !important; */
+}
+
+
+.adt-header-button.active
+{
+  color: var(--button-hover-background-color); 
+  background-color: var(--sideBar-bg-color); 
+}
