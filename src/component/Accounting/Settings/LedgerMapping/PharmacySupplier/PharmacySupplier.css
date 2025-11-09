@@ -1,0 +1,61 @@
+.pharmacy-supplier-container {
+    /* background-color: #e0f7fa; */
+    padding: 0px;
+  }
+  
+  .PharmacySupplier-filters {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    align-items: center;
+  }
+  
+  .PharmacySupplier-filters label {
+    margin-right: 5px;
+  }
+  
+  .PharmacySupplier-search-bar {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .PharmacySupplier-search-bar input {
+    padding: 3px;
+    margin-right: 0px;
+  }
+  
+  .PharmacySupplier-checkbox-filters {
+    margin-top: 1px;
+  }
+  
+  .pharmacy-supplier-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1px;
+  }
+  
+  /* .pharmacy-supplier-table th,
+  .pharmacy-supplier-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  } */
+  
+  .pharmacy-supplier-table input[type="text"],
+  .pharmacy-supplier-table input[type="number"] {
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .PharmacySupplier-ledger {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .pharmacy-supplier-table input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  

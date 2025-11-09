@@ -1,0 +1,58 @@
+  .accounting-component {
+      width: 100%;
+      /* background-color: var(--background-color); */
+      display: flex;
+      flex-direction: column;
+      overflow: auto;
+      height: 90vh;
+    }
+    
+    .accounting-component-header {
+      padding: 5px 5px;
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    
+    .accounting-component-header ul {
+      list-style-type: none;
+      padding: 5px 0px 0px 1px;
+      display: flex;
+      align-items: center;
+      margin: 0;
+    }
+    
+    .accounting-component-header ul li {
+      color: black;
+      cursor: pointer;
+      font-size: var(--font-size);
+      padding:0 5px;
+      border-radius: 5px;
+    }
+    .accounting-component-header a{
+       color: black;
+  text-decoration: none;
+  font-size: var(--heading-font);
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 0px;
+  position: relative;
+  border: 1px solid transparent;
+    }
+
+    .accounting-component-header ul li :hover {
+     background-color: var(--button-hover-background-color);
+  color: var(--button-hover-text-color);
+    border: 1px solid var( --button-hover-border-color);
+    
+    }
+    .accounting-component-header ul li .active {
+      color: white;
+      /* background-color: red; */
+      background-color: var(--sideBar-bg-color);
+    }

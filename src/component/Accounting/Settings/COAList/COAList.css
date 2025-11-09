@@ -1,0 +1,65 @@
+.coa{
+    padding: 1px;
+}
+.coa-create button{
+    background-color: var(--button-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: var(--button-hover-background-color);
+    font-size: var(--font-size);
+    cursor: pointer;
+    border: 1px solid var(--button-hover-border-color);
+}
+.coa-create button:hover{
+  color: var(--button-hover-text-color);
+  background-color: var(--button-hover-background-color);
+}
+
+.coa-search-container{
+    margin-top: 5px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.coa-search-container input[type="text"]{
+   background-color: transparent;
+   border: none;
+   outline: none;
+   width: 180px;
+}
+.coa-search-bar {
+    display: flex;
+    font-size: var(--font-size);
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .coa-print-btn{
+    background-color: var(--button-color);
+    color: var(--button-hover-background-color);
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid var(--button-hover-border-color);
+    font-size: var(--font-size);
+  }
+  .coa-print-btn:hover{
+    color: var(--button-hover-text-color);
+    background-color: var(--button-hover-background-color);
+  }
+  .coa-results-count{
+    color: rgb(87, 85, 85);
+  }
+  .coa-table-btn{
+    background-color: var(--button-color);
+    color: var(--button-hover-background-color);
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 1px solid var(--button-hover-border-color);
+  }
+.coa-table-btn:hover{
+  color: var(--button-hover-text-color);
+    background-color: var(--button-hover-background-color);
+}

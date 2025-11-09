@@ -1,0 +1,139 @@
+.adt-app-container {
+  font-family: Arial, sans-serif;
+  background-color:var(--background-color);
+  padding: 5px 0;
+}
+.admitedmain-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+.adt-search-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%; 
+  margin-bottom: 5px; 
+}
+.admitted-search-input {
+  flex: 1; 
+  max-width: 200px; 
+  padding: 1px;
+  border-radius: 4px;
+}
+.adt-admitted-patient-icon-btn {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 1px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: -42px;
+  margin-top: 2px;
+}
+.adt-admitted-patient-icon-btn:hover {
+  background-color: #f0f0f0;
+}
+.admitted-print-export{
+  gap: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.admit-actions {
+  width: 100%;
+  overflow: scroll;
+  scrollbar-width: none;
+  display: flex;
+  align-items: center;
+}
+.admitbtn {
+  margin-right: 10px;
+  padding:5px;
+  background-color:var(--button-color);
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center; 
+}
+.admitpatient-export-container-button {
+  padding: 3px 5px;
+  border:1px solid var(--button-hover-border-color);
+  border-radius: 5px;
+  background-color: var(--button-color);
+  color: white;
+  cursor: pointer;
+  font-size: var(--font-size);
+}
+.admitpatient-export-container-button:hover {
+  background-color: var(--button-hover-background-color);
+  color: var(--button-hover-text-color);
+}
+.admitpatient-modal-header {
+  background-color: #007bff;
+  color: white;
+  border-bottom: none;
+}
+.modal-footer .btn-success {
+  background-color: #28a745;
+  border: none;
+}
+.modal-footer .btn-success:hover {
+  background-color: #218838;
+}
+.admitbtn-select {
+  background-color: var(--button-color);
+  width: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 6px;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.admitbtn-select:focus {
+  background-color: white;
+  color: black;
+  outline: none;
+}
+.admit-formDepartment-container
+{
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .admitedmain-div {
+    flex-direction: column;
+    align-items: flex-start; 
+  }
+  .adt-search-container {
+    width: 100%; 
+  }
+  .admitted-search-input {
+    width: 100%; 
+  }
+  .admit-actions {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .admitbtn {
+    width: 100%;
+    margin-bottom: 10px; 
+  }
+}
+@media (max-width: 480px) {
+  .adt-main {
+    padding: 5px;
+  }
+  .admittedtablehead, .admittedtabledata {
+    font-size: 12px; 
+  }
+  .admitbtn-select {
+    width: 100%; 
+  }
+}
+.custom-modal-width .modal-dialog {
+  width: 900px; 
+}
